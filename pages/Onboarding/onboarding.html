@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Onboarding/css/style.css" />
+    <script src="../Onboarding/script/script.js" defer></script>
+    <title>Onboarding | QuizCodeMastery</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <h1>QuizCodeMastery</h1>
+      </header>
+
+      <!-- Onboarding Section -->
+      <section id="onboarding-section" class="onboarding-section">
+        <h2>Start Your Quiz: <span id="selected-subject"></span></h2>
+
+        <div class="quiz-settings">
+          <h3>Choose Difficulty:</h3>
+          <select id="difficulty">
+            <option value="beginner">Beginner</option>
+            <option value="master">Master</option>
+            <option value="hero">Hero</option>
+          </select>
+
+          <h3>Choose Number of Questions:</h3>
+          <select id="num-questions">
+            <option value="10">10 Questions</option>
+            <option value="20">20 Questions</option>
+            <option value="30">30 Questions</option>
+            <option value="40">40 Questions</option>
+            <option value="50">50 Questions</option>
+          </select>
+
+          <h3>Choose Timer Duration:</h3>
+          <select id="quiz-timer">
+            <option value="5">5 Minutes</option>
+            <option value="10">10 Minutes</option>
+            <option value="20">20 Minutes</option>
+            <option value="30">30 Minutes</option>
+          </select>
+
+          <button id="start-quiz-btn" disabled>Start Quiz Now!</button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
